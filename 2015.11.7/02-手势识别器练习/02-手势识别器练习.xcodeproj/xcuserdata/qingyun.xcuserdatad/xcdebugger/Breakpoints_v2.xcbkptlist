@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02-&#x624b;&#x52bf;&#x8bc6;&#x522b;&#x5668;&#x7ec3;&#x4e60;/ViewController.m"
+            timestampString = "468667536.130358"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-resetRect"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController resetRect]"
+                  moduleName = "02-&#x624b;&#x52bf;&#x8bc6;&#x522b;&#x5668;&#x7ec3;&#x4e60;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/02-%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB%E5%99%A8%E7%BB%83%E4%B9%A0/02-%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB%E5%99%A8%E7%BB%83%E4%B9%A0/ViewController.m"
+                  timestampString = "468667544.617823"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__27-[ViewController resetRect]_block_invoke"
+                  moduleName = "02-&#x624b;&#x52bf;&#x8bc6;&#x522b;&#x5668;&#x7ec3;&#x4e60;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/02-%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB%E5%99%A8%E7%BB%83%E4%B9%A0/02-%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB%E5%99%A8%E7%BB%83%E4%B9%A0/ViewController.m"
+                  timestampString = "468667544.617975"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02-&#x624b;&#x52bf;&#x8bc6;&#x522b;&#x5668;&#x7ec3;&#x4e60;/AppDelegate.m"
+            timestampString = "468667541.30564"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "-resetRect"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
