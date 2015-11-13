@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC683B2A1BF49435001E5183 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC683B281BF49435001E5183 /* InfoTableViewCell.m */; };
+		CC683B2B1BF49435001E5183 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC683B291BF49435001E5183 /* InfoTableViewCell.xib */; };
+		CC683B2D1BF49577001E5183 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC683B2C1BF49577001E5183 /* 1.jpg */; };
+		CC683B311BF49AA1001E5183 /* InfoMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC683B301BF49AA1001E5183 /* InfoMode.m */; };
+		CC83DA541BF48FC200B634F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC83DA531BF48FC200B634F2 /* main.m */; };
+		CC83DA571BF48FC200B634F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC83DA561BF48FC200B634F2 /* AppDelegate.m */; };
+		CC83DA5A1BF48FC200B634F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC83DA591BF48FC200B634F2 /* ViewController.m */; };
+		CC83DA5D1BF48FC200B634F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC83DA5B1BF48FC200B634F2 /* Main.storyboard */; };
+		CC83DA5F1BF48FC200B634F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC83DA5E1BF48FC200B634F2 /* Images.xcassets */; };
+		CC83DA621BF48FC200B634F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC83DA601BF48FC200B634F2 /* LaunchScreen.xib */; };
+		CC83DA6E1BF48FC200B634F2 /* _3_SmartShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC83DA6D1BF48FC200B634F2 /* _3_SmartShowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC83DA681BF48FC200B634F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC83DA461BF48FC200B634F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC83DA4D1BF48FC200B634F2;
+			remoteInfo = "03-SmartShow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC683B271BF49435001E5183 /* InfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
+		CC683B281BF49435001E5183 /* InfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
+		CC683B291BF49435001E5183 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		CC683B2C1BF49577001E5183 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CC683B2E1BF4968B001E5183 /* heardInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heardInfo.h; sourceTree = "<group>"; };
+		CC683B2F1BF49AA1001E5183 /* InfoMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoMode.h; sourceTree = "<group>"; };
+		CC683B301BF49AA1001E5183 /* InfoMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoMode.m; sourceTree = "<group>"; };
+		CC83DA4E1BF48FC200B634F2 /* 03-SmartShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-SmartShow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83DA521BF48FC200B634F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC83DA531BF48FC200B634F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC83DA551BF48FC200B634F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC83DA561BF48FC200B634F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC83DA581BF48FC200B634F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC83DA591BF48FC200B634F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC83DA5C1BF48FC200B634F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC83DA5E1BF48FC200B634F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC83DA611BF48FC200B634F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC83DA671BF48FC200B634F2 /* 03-SmartShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-SmartShowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83DA6C1BF48FC200B634F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC83DA6D1BF48FC200B634F2 /* _3_SmartShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_SmartShowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC83DA4B1BF48FC200B634F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83DA641BF48FC200B634F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC83DA451BF48FC200B634F2 = {
+			isa = PBXGroup;
+			children = (
+				CC83DA501BF48FC200B634F2 /* 03-SmartShow */,
+				CC83DA6A1BF48FC200B634F2 /* 03-SmartShowTests */,
+				CC83DA4F1BF48FC200B634F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC83DA4F1BF48FC200B634F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC83DA4E1BF48FC200B634F2 /* 03-SmartShow.app */,
+				CC83DA671BF48FC200B634F2 /* 03-SmartShowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC83DA501BF48FC200B634F2 /* 03-SmartShow */ = {
+			isa = PBXGroup;
+			children = (
+				CC83DA791BF4904800B634F2 /* mode */,
+				CC83DA781BF4903D00B634F2 /* controll */,
+				CC83DA771BF4902F00B634F2 /* view */,
+				CC83DA551BF48FC200B634F2 /* AppDelegate.h */,
+				CC83DA561BF48FC200B634F2 /* AppDelegate.m */,
+				CC683B2E1BF4968B001E5183 /* heardInfo.h */,
+				CC83DA5E1BF48FC200B634F2 /* Images.xcassets */,
+				CC83DA601BF48FC200B634F2 /* LaunchScreen.xib */,
+				CC83DA511BF48FC200B634F2 /* Supporting Files */,
+			);
+			path = "03-SmartShow";
+			sourceTree = "<group>";
+		};
+		CC83DA511BF48FC200B634F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC83DA521BF48FC200B634F2 /* Info.plist */,
+				CC683B2C1BF49577001E5183 /* 1.jpg */,
+				CC83DA531BF48FC200B634F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC83DA6A1BF48FC200B634F2 /* 03-SmartShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC83DA6D1BF48FC200B634F2 /* _3_SmartShowTests.m */,
+				CC83DA6B1BF48FC200B634F2 /* Supporting Files */,
+			);
+			path = "03-SmartShowTests";
+			sourceTree = "<group>";
+		};
+		CC83DA6B1BF48FC200B634F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC83DA6C1BF48FC200B634F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC83DA771BF4902F00B634F2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CC683B271BF49435001E5183 /* InfoTableViewCell.h */,
+				CC683B281BF49435001E5183 /* InfoTableViewCell.m */,
+				CC683B291BF49435001E5183 /* InfoTableViewCell.xib */,
+				CC83DA5B1BF48FC200B634F2 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CC83DA781BF4903D00B634F2 /* controll */ = {
+			isa = PBXGroup;
+			children = (
+				CC83DA581BF48FC200B634F2 /* ViewController.h */,
+				CC83DA591BF48FC200B634F2 /* ViewController.m */,
+			);
+			name = controll;
+			sourceTree = "<group>";
+		};
+		CC83DA791BF4904800B634F2 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				CC683B2F1BF49AA1001E5183 /* InfoMode.h */,
+				CC683B301BF49AA1001E5183 /* InfoMode.m */,
+			);
+			name = mode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC83DA4D1BF48FC200B634F2 /* 03-SmartShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC83DA711BF48FC200B634F2 /* Build configuration list for PBXNativeTarget "03-SmartShow" */;
+			buildPhases = (
+				CC83DA4A1BF48FC200B634F2 /* Sources */,
+				CC83DA4B1BF48FC200B634F2 /* Frameworks */,
+				CC83DA4C1BF48FC200B634F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-SmartShow";
+			productName = "03-SmartShow";
+			productReference = CC83DA4E1BF48FC200B634F2 /* 03-SmartShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC83DA661BF48FC200B634F2 /* 03-SmartShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC83DA741BF48FC200B634F2 /* Build configuration list for PBXNativeTarget "03-SmartShowTests" */;
+			buildPhases = (
+				CC83DA631BF48FC200B634F2 /* Sources */,
+				CC83DA641BF48FC200B634F2 /* Frameworks */,
+				CC83DA651BF48FC200B634F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC83DA691BF48FC200B634F2 /* PBXTargetDependency */,
+			);
+			name = "03-SmartShowTests";
+			productName = "03-SmartShowTests";
+			productReference = CC83DA671BF48FC200B634F2 /* 03-SmartShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC83DA461BF48FC200B634F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = hnqingyun;
+				TargetAttributes = {
+					CC83DA4D1BF48FC200B634F2 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CC83DA661BF48FC200B634F2 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CC83DA4D1BF48FC200B634F2;
+					};
+				};
+			};
+			buildConfigurationList = CC83DA491BF48FC200B634F2 /* Build configuration list for PBXProject "03-SmartShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC83DA451BF48FC200B634F2;
+			productRefGroup = CC83DA4F1BF48FC200B634F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC83DA4D1BF48FC200B634F2 /* 03-SmartShow */,
+				CC83DA661BF48FC200B634F2 /* 03-SmartShowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC83DA4C1BF48FC200B634F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83DA5D1BF48FC200B634F2 /* Main.storyboard in Resources */,
+				CC683B2B1BF49435001E5183 /* InfoTableViewCell.xib in Resources */,
+				CC83DA621BF48FC200B634F2 /* LaunchScreen.xib in Resources */,
+				CC683B2D1BF49577001E5183 /* 1.jpg in Resources */,
+				CC83DA5F1BF48FC200B634F2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83DA651BF48FC200B634F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC83DA4A1BF48FC200B634F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83DA5A1BF48FC200B634F2 /* ViewController.m in Sources */,
+				CC683B2A1BF49435001E5183 /* InfoTableViewCell.m in Sources */,
+				CC83DA571BF48FC200B634F2 /* AppDelegate.m in Sources */,
+				CC683B311BF49AA1001E5183 /* InfoMode.m in Sources */,
+				CC83DA541BF48FC200B634F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83DA631BF48FC200B634F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83DA6E1BF48FC200B634F2 /* _3_SmartShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC83DA691BF48FC200B634F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC83DA4D1BF48FC200B634F2 /* 03-SmartShow */;
+			targetProxy = CC83DA681BF48FC200B634F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC83DA5B1BF48FC200B634F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC83DA5C1BF48FC200B634F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC83DA601BF48FC200B634F2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC83DA611BF48FC200B634F2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC83DA6F1BF48FC200B634F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC83DA701BF48FC200B634F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC83DA721BF48FC200B634F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-SmartShow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC83DA731BF48FC200B634F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-SmartShow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC83DA751BF48FC200B634F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "03-SmartShowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-SmartShow.app/03-SmartShow";
+			};
+			name = Debug;
+		};
+		CC83DA761BF48FC200B634F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "03-SmartShowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-SmartShow.app/03-SmartShow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC83DA491BF48FC200B634F2 /* Build configuration list for PBXProject "03-SmartShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83DA6F1BF48FC200B634F2 /* Debug */,
+				CC83DA701BF48FC200B634F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC83DA711BF48FC200B634F2 /* Build configuration list for PBXNativeTarget "03-SmartShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83DA721BF48FC200B634F2 /* Debug */,
+				CC83DA731BF48FC200B634F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC83DA741BF48FC200B634F2 /* Build configuration list for PBXNativeTarget "03-SmartShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83DA751BF48FC200B634F2 /* Debug */,
+				CC83DA761BF48FC200B634F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC83DA461BF48FC200B634F2 /* Project object */;
+}

@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#define baseUrl @"http://pic19.nipic.com/20120308/7491614_141057681000_2.png"
+#define baseUrl @"6"
 
 @interface ViewController ()<NSURLConnectionDataDelegate>
 @property(nonatomic,strong)NSMutableData *data;

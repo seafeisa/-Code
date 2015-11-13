@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7FD56450-8241-4B8F-B2F2-07DFCC037120</string>
+	<key>IDESourceControlProjectName</key>
+	<string>03-Range</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>888DD16A6DECFB7280B10F87158C8B4FC6FFE8C2</key>
+		<string>https://github.com/seafeisa/-Code.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>20151110/03-Range/03-Range.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>888DD16A6DECFB7280B10F87158C8B4FC6FFE8C2</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/seafeisa/-Code.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>888DD16A6DECFB7280B10F87158C8B4FC6FFE8C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>888DD16A6DECFB7280B10F87158C8B4FC6FFE8C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>-Code</string>
+		</dict>
+	</array>
+</dict>
+</plist>

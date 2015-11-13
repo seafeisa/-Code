@@ -20,7 +20,7 @@
     
     //2创建request
     NSMutableURLRequest *request=[NSMutableURLRequest requestWithURL:url];
-    //2.1 设置method HEAD
+    //2.1 设置method HEAD 请求方式
      request.HTTPMethod=@"head";
     
     //3.创建contenction

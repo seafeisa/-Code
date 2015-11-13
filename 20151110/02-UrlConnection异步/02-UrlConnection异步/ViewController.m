@@ -93,7 +93,7 @@
     [btn setTitle:@"clickMe" forState:UIControlStateNormal];
     
     [btn addTarget:self action:@selector(clickMe:) forControlEvents:UIControlEventTouchUpInside];
-    btn.frame=CGRectMake(100, 100, 100, 40);
+    btn.frame=CGRectMake(100, 100, 100, 40); 
     
     [self.view addSubview:btn];
 
