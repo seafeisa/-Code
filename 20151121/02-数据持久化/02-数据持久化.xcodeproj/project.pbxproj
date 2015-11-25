@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC534E741C0296E800A0F1B9 /* ArchiveerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC534E721C0296E800A0F1B9 /* ArchiveerVC.m */; };
+		CC534E751C0296E800A0F1B9 /* ArchiveerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC534E731C0296E800A0F1B9 /* ArchiveerVC.xib */; };
+		CC534E781C02981F00A0F1B9 /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = CC534E771C02981F00A0F1B9 /* Students.m */; };
 		CCEBFDCD1C0014F1001ACDA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEBFDCC1C0014F1001ACDA0 /* main.m */; };
 		CCEBFDD01C0014F1001ACDA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEBFDCF1C0014F1001ACDA0 /* AppDelegate.m */; };
 		CCEBFDD31C0014F1001ACDA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEBFDD21C0014F1001ACDA0 /* ViewController.m */; };
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC534E711C0296E800A0F1B9 /* ArchiveerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveerVC.h; sourceTree = "<group>"; };
+		CC534E721C0296E800A0F1B9 /* ArchiveerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveerVC.m; sourceTree = "<group>"; };
+		CC534E731C0296E800A0F1B9 /* ArchiveerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArchiveerVC.xib; sourceTree = "<group>"; };
+		CC534E761C02981F00A0F1B9 /* Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Students.h; sourceTree = "<group>"; };
+		CC534E771C02981F00A0F1B9 /* Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
 		CCEBFDC71C0014F1001ACDA0 /* 02-数据持久化.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-数据持久化.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEBFDCB1C0014F1001ACDA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCEBFDCC1C0014F1001ACDA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,6 +90,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC534E701C0296AA00A0F1B9 /* ArchiveerVC */ = {
+			isa = PBXGroup;
+			children = (
+				CC534E711C0296E800A0F1B9 /* ArchiveerVC.h */,
+				CC534E721C0296E800A0F1B9 /* ArchiveerVC.m */,
+				CC534E731C0296E800A0F1B9 /* ArchiveerVC.xib */,
+				CC534E761C02981F00A0F1B9 /* Students.h */,
+				CC534E771C02981F00A0F1B9 /* Students.m */,
+			);
+			name = ArchiveerVC;
+			sourceTree = "<group>";
+		};
 		CCEBFDBE1C0014F1001ACDA0 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +166,7 @@
 			children = (
 				CCEBFE061C004EEA001ACDA0 /* property List  */,
 				CCEBFDFE1C004958001ACDA0 /* UserDefaults */,
+				CC534E701C0296AA00A0F1B9 /* ArchiveerVC */,
 				CCEBFDF11C001516001ACDA0 /* Raw File APIs */,
 				CCEBFDD11C0014F1001ACDA0 /* ViewController.h */,
 				CCEBFDD21C0014F1001ACDA0 /* ViewController.m */,
@@ -286,6 +307,7 @@
 				CCEBFE051C004E6F001ACDA0 /* Property List.plist in Resources */,
 				CCEBFE031C00498C001ACDA0 /* UserDefaultsViewController.xib in Resources */,
 				CCEBFDDB1C0014F2001ACDA0 /* LaunchScreen.xib in Resources */,
+				CC534E751C0296E800A0F1B9 /* ArchiveerVC.xib in Resources */,
 				CCEBFDD81C0014F2001ACDA0 /* Images.xcassets in Resources */,
 				CCEBFDF71C00156D001ACDA0 /* CAPIViewController.xib in Resources */,
 				CCEBFDFD1C001DEC001ACDA0 /* OCAPIViewController.xib in Resources */,
@@ -309,6 +331,8 @@
 			files = (
 				CCEBFDD31C0014F1001ACDA0 /* ViewController.m in Sources */,
 				CCEBFE021C00498C001ACDA0 /* UserDefaultsViewController.m in Sources */,
+				CC534E781C02981F00A0F1B9 /* Students.m in Sources */,
+				CC534E741C0296E800A0F1B9 /* ArchiveerVC.m in Sources */,
 				CCEBFDD01C0014F1001ACDA0 /* AppDelegate.m in Sources */,
 				CCEBFDCD1C0014F1001ACDA0 /* main.m in Sources */,
 				CCEBFDFC1C001DEC001ACDA0 /* OCAPIViewController.m in Sources */,
@@ -508,6 +532,7 @@
 				CCEBFDEC1C0014F2001ACDA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCEBFDED1C0014F2001ACDA0 /* Build configuration list for PBXNativeTarget "02-数据持久化Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +541,7 @@
 				CCEBFDEF1C0014F2001ACDA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -35,6 +35,7 @@
     //创建文件 ocapi.txt;
    //文件路径
     NSString *filepath=[directoryPath stringByAppendingPathComponent:filename];
+    NSLog(@"%@",filepath);
     //创建文件
     //判断文件是否存在，不存在再创建
     if (![manger fileExistsAtPath:filepath]) {
