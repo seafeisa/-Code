@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC71484C1C069C8A007A3020 /* selectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC71484A1C069C8A007A3020 /* selectViewController.m */; };
+		CC71484D1C069C8A007A3020 /* selectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC71484B1C069C8A007A3020 /* selectViewController.xib */; };
 		CCBD7BE21C0446AB000886A5 /* SQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBD7BE01C0446AB000886A5 /* SQLiteViewController.m */; };
 		CCBD7BE31C0446AB000886A5 /* SQLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBD7BE11C0446AB000886A5 /* SQLiteViewController.xib */; };
 		CCBD7BE61C0447A4000886A5 /* studentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBD7BE51C0447A4000886A5 /* studentsModel.m */; };
@@ -45,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC7148491C069C8A007A3020 /* selectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectViewController.h; sourceTree = "<group>"; };
+		CC71484A1C069C8A007A3020 /* selectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectViewController.m; sourceTree = "<group>"; };
+		CC71484B1C069C8A007A3020 /* selectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = selectViewController.xib; sourceTree = "<group>"; };
 		CCBD7BDF1C0446AB000886A5 /* SQLiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteViewController.h; sourceTree = "<group>"; };
 		CCBD7BE01C0446AB000886A5 /* SQLiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteViewController.m; sourceTree = "<group>"; };
 		CCBD7BE11C0446AB000886A5 /* SQLiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQLiteViewController.xib; sourceTree = "<group>"; };
@@ -114,6 +119,9 @@
 				CCBD7BE11C0446AB000886A5 /* SQLiteViewController.xib */,
 				CCBD7BE71C044B7E000886A5 /* dataBaseOperation.h */,
 				CCBD7BE81C044B7E000886A5 /* dataBaseOperation.m */,
+				CC7148491C069C8A007A3020 /* selectViewController.h */,
+				CC71484A1C069C8A007A3020 /* selectViewController.m */,
+				CC71484B1C069C8A007A3020 /* selectViewController.xib */,
 			);
 			name = SQLite;
 			sourceTree = "<group>";
@@ -344,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC71484D1C069C8A007A3020 /* selectViewController.xib in Resources */,
 				CCBD7BE31C0446AB000886A5 /* SQLiteViewController.xib in Resources */,
 				CCC6FB331C02F110002467AF /* ArchiverViewController.xib in Resources */,
 				CCEBFDD61C0014F2001ACDA0 /* Main.storyboard in Resources */,
@@ -383,6 +392,7 @@
 				CCBD7BE91C044B7E000886A5 /* dataBaseOperation.m in Sources */,
 				CCC6FB321C02F110002467AF /* ArchiverViewController.m in Sources */,
 				CCEBFDF61C00156D001ACDA0 /* CAPIViewController.m in Sources */,
+				CC71484C1C069C8A007A3020 /* selectViewController.m in Sources */,
 				CCC6FB371C02F168002467AF /* UserInfoMode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
- _arr=@[@"CAPIViewController",@"OCAPIViewController",@"UserDefaultsViewController",@"PropertyListViewController",@"ArchiverViewController",@"SQLiteViewController"];
+ _arr=@[@"CAPIViewController",@"OCAPIViewController",@"UserDefaultsViewController",@"PropertyListViewController",@"ArchiverViewController",@"selectViewController"];
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
