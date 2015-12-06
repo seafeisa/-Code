@@ -38,7 +38,8 @@
         }
     }
     
-    //将配置注册到我们的注册域上
+    //1.将配置注册到我们的注册域上 registerDefaults:方法是在NSRegiseterationDomain域上进行配置的，所以仅仅存在于内存中，是易失的。每次运行程序，都要重新去读取，其读取优先级顺序是NSArgumentDomain(volatile)-->Application(persistent)-->NSGlobalDomain(persistent)-->Languages(volatile)-->NSRegistrationDomain(volatile)
+    //2.若已经在用户界面更改过setting.bundle 则会把更改过的内容存在Applocation（persistent）持久化保存起来。下次加载会加载更改过的存在Applocation（persistent）中的数据。所以可以认为NSRegistrationDomain(volatile)注册域是sett.bundle 的默认设置。
     [[NSUserDefaults standardUserDefaults] registerDefaults:defaulDic];
     
     

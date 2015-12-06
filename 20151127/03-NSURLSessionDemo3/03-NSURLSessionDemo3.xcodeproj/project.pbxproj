@@ -14,6 +14,7 @@
 		CC1BCB7F1C084DCA0004580D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1BCB7E1C084DCA0004580D /* Images.xcassets */; };
 		CC1BCB821C084DCA0004580D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1BCB801C084DCA0004580D /* LaunchScreen.xib */; };
 		CC1BCB8E1C084DCA0004580D /* _3_NSURLSessionDemo3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1BCB8D1C084DCA0004580D /* _3_NSURLSessionDemo3Tests.m */; };
+		CC5985E41C0D247700CABD83 /* 4d2d39cab8e4951559f7e682c1fa8384.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5985E31C0D247700CABD83 /* 4d2d39cab8e4951559f7e682c1fa8384.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		CC1BCB871C084DCA0004580D /* 03-NSURLSessionDemo3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-NSURLSessionDemo3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1BCB8C1C084DCA0004580D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC1BCB8D1C084DCA0004580D /* _3_NSURLSessionDemo3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_NSURLSessionDemo3Tests.m; sourceTree = "<group>"; };
+		CC5985E31C0D247700CABD83 /* 4d2d39cab8e4951559f7e682c1fa8384.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4d2d39cab8e4951559f7e682c1fa8384.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		CC1BCB711C084DCA0004580D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC5985E31C0D247700CABD83 /* 4d2d39cab8e4951559f7e682c1fa8384.jpg */,
 				CC1BCB721C084DCA0004580D /* Info.plist */,
 				CC1BCB731C084DCA0004580D /* main.m */,
 			);
@@ -201,6 +204,7 @@
 			files = (
 				CC1BCB7D1C084DCA0004580D /* Main.storyboard in Resources */,
 				CC1BCB821C084DCA0004580D /* LaunchScreen.xib in Resources */,
+				CC5985E41C0D247700CABD83 /* 4d2d39cab8e4951559f7e682c1fa8384.jpg in Resources */,
 				CC1BCB7F1C084DCA0004580D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +420,7 @@
 				CC1BCB931C084DCA0004580D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC1BCB941C084DCA0004580D /* Build configuration list for PBXNativeTarget "03-NSURLSessionDemo3Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				CC1BCB961C084DCA0004580D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

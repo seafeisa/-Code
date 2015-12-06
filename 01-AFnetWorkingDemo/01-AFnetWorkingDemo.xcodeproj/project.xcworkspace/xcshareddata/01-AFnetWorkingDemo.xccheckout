@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>11E6EBCB-4E30-4281-AD8F-FBE56D4FC596</string>
+	<string>A6B27F20-CDB0-41D7-9679-6A4A2F3B7387</string>
 	<key>IDESourceControlProjectName</key>
 	<string>01-AFnetWorkingDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/seafeisa/-Code.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>20151117/01-AFnetWorkingDemo/01-AFnetWorkingDemo.xcodeproj</string>
+	<string>01-AFnetWorkingDemo/01-AFnetWorkingDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>888DD16A6DECFB7280B10F87158C8B4FC6FFE8C2</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/seafeisa/-Code.git</string>

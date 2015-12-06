@@ -56,6 +56,7 @@
    
     //上传
     NSURL *fileURL=[[NSBundle mainBundle]URLForResource:@"1" withExtension:@"jpg" ];
+
     [manger POST:url parameters:nil constructingBodyWithBlock:^void(id<AFMultipartFormData> formData) {
    //追加数据
         NSError *error;
