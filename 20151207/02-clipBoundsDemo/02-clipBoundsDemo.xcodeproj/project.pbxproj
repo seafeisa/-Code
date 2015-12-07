@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC9A1C71C156964003E5075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9A1C61C156964003E5075 /* main.m */; };
+		CCC9A1CA1C156964003E5075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9A1C91C156964003E5075 /* AppDelegate.m */; };
+		CCC9A1CD1C156964003E5075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9A1CC1C156964003E5075 /* ViewController.m */; };
+		CCC9A1D01C156964003E5075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC9A1CE1C156964003E5075 /* Main.storyboard */; };
+		CCC9A1D21C156964003E5075 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC9A1D11C156964003E5075 /* Images.xcassets */; };
+		CCC9A1D51C156964003E5075 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC9A1D31C156964003E5075 /* LaunchScreen.xib */; };
+		CCC9A1E11C156964003E5075 /* _2_clipBoundsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9A1E01C156964003E5075 /* _2_clipBoundsDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC9A1DB1C156964003E5075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC9A1B91C156964003E5075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC9A1C01C156964003E5075;
+			remoteInfo = "02-clipBoundsDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC9A1C11C156964003E5075 /* 02-clipBoundsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-clipBoundsDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC9A1C51C156964003E5075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC9A1C61C156964003E5075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC9A1C81C156964003E5075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCC9A1C91C156964003E5075 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCC9A1CB1C156964003E5075 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCC9A1CC1C156964003E5075 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCC9A1CF1C156964003E5075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC9A1D11C156964003E5075 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCC9A1D41C156964003E5075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCC9A1DA1C156964003E5075 /* 02-clipBoundsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-clipBoundsDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC9A1DF1C156964003E5075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC9A1E01C156964003E5075 /* _2_clipBoundsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_clipBoundsDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC9A1BE1C156964003E5075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9A1D71C156964003E5075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC9A1B81C156964003E5075 = {
+			isa = PBXGroup;
+			children = (
+				CCC9A1C31C156964003E5075 /* 02-clipBoundsDemo */,
+				CCC9A1DD1C156964003E5075 /* 02-clipBoundsDemoTests */,
+				CCC9A1C21C156964003E5075 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC9A1C21C156964003E5075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9A1C11C156964003E5075 /* 02-clipBoundsDemo.app */,
+				CCC9A1DA1C156964003E5075 /* 02-clipBoundsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC9A1C31C156964003E5075 /* 02-clipBoundsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9A1C81C156964003E5075 /* AppDelegate.h */,
+				CCC9A1C91C156964003E5075 /* AppDelegate.m */,
+				CCC9A1CB1C156964003E5075 /* ViewController.h */,
+				CCC9A1CC1C156964003E5075 /* ViewController.m */,
+				CCC9A1CE1C156964003E5075 /* Main.storyboard */,
+				CCC9A1D11C156964003E5075 /* Images.xcassets */,
+				CCC9A1D31C156964003E5075 /* LaunchScreen.xib */,
+				CCC9A1C41C156964003E5075 /* Supporting Files */,
+			);
+			path = "02-clipBoundsDemo";
+			sourceTree = "<group>";
+		};
+		CCC9A1C41C156964003E5075 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9A1C51C156964003E5075 /* Info.plist */,
+				CCC9A1C61C156964003E5075 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCC9A1DD1C156964003E5075 /* 02-clipBoundsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9A1E01C156964003E5075 /* _2_clipBoundsDemoTests.m */,
+				CCC9A1DE1C156964003E5075 /* Supporting Files */,
+			);
+			path = "02-clipBoundsDemoTests";
+			sourceTree = "<group>";
+		};
+		CCC9A1DE1C156964003E5075 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9A1DF1C156964003E5075 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC9A1C01C156964003E5075 /* 02-clipBoundsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC9A1E41C156964003E5075 /* Build configuration list for PBXNativeTarget "02-clipBoundsDemo" */;
+			buildPhases = (
+				CCC9A1BD1C156964003E5075 /* Sources */,
+				CCC9A1BE1C156964003E5075 /* Frameworks */,
+				CCC9A1BF1C156964003E5075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-clipBoundsDemo";
+			productName = "02-clipBoundsDemo";
+			productReference = CCC9A1C11C156964003E5075 /* 02-clipBoundsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC9A1D91C156964003E5075 /* 02-clipBoundsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC9A1E71C156964003E5075 /* Build configuration list for PBXNativeTarget "02-clipBoundsDemoTests" */;
+			buildPhases = (
+				CCC9A1D61C156964003E5075 /* Sources */,
+				CCC9A1D71C156964003E5075 /* Frameworks */,
+				CCC9A1D81C156964003E5075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC9A1DC1C156964003E5075 /* PBXTargetDependency */,
+			);
+			name = "02-clipBoundsDemoTests";
+			productName = "02-clipBoundsDemoTests";
+			productReference = CCC9A1DA1C156964003E5075 /* 02-clipBoundsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC9A1B91C156964003E5075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = hnqingyun;
+				TargetAttributes = {
+					CCC9A1C01C156964003E5075 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CCC9A1D91C156964003E5075 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CCC9A1C01C156964003E5075;
+					};
+				};
+			};
+			buildConfigurationList = CCC9A1BC1C156964003E5075 /* Build configuration list for PBXProject "02-clipBoundsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC9A1B81C156964003E5075;
+			productRefGroup = CCC9A1C21C156964003E5075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC9A1C01C156964003E5075 /* 02-clipBoundsDemo */,
+				CCC9A1D91C156964003E5075 /* 02-clipBoundsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC9A1BF1C156964003E5075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC9A1D01C156964003E5075 /* Main.storyboard in Resources */,
+				CCC9A1D51C156964003E5075 /* LaunchScreen.xib in Resources */,
+				CCC9A1D21C156964003E5075 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9A1D81C156964003E5075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC9A1BD1C156964003E5075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC9A1CD1C156964003E5075 /* ViewController.m in Sources */,
+				CCC9A1CA1C156964003E5075 /* AppDelegate.m in Sources */,
+				CCC9A1C71C156964003E5075 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9A1D61C156964003E5075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC9A1E11C156964003E5075 /* _2_clipBoundsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC9A1DC1C156964003E5075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC9A1C01C156964003E5075 /* 02-clipBoundsDemo */;
+			targetProxy = CCC9A1DB1C156964003E5075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCC9A1CE1C156964003E5075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC9A1CF1C156964003E5075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC9A1D31C156964003E5075 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC9A1D41C156964003E5075 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC9A1E21C156964003E5075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCC9A1E31C156964003E5075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC9A1E51C156964003E5075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-clipBoundsDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCC9A1E61C156964003E5075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-clipBoundsDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCC9A1E81C156964003E5075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-clipBoundsDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-clipBoundsDemo.app/02-clipBoundsDemo";
+			};
+			name = Debug;
+		};
+		CCC9A1E91C156964003E5075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-clipBoundsDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-clipBoundsDemo.app/02-clipBoundsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC9A1BC1C156964003E5075 /* Build configuration list for PBXProject "02-clipBoundsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC9A1E21C156964003E5075 /* Debug */,
+				CCC9A1E31C156964003E5075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC9A1E41C156964003E5075 /* Build configuration list for PBXNativeTarget "02-clipBoundsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC9A1E51C156964003E5075 /* Debug */,
+				CCC9A1E61C156964003E5075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCC9A1E71C156964003E5075 /* Build configuration list for PBXNativeTarget "02-clipBoundsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC9A1E81C156964003E5075 /* Debug */,
+				CCC9A1E91C156964003E5075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC9A1B91C156964003E5075 /* Project object */;
+}
